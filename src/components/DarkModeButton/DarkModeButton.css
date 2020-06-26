@@ -1,0 +1,28 @@
+.darkModeBtn{
+    width:45px;
+    height:45px;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkModeBtn .sunMoon{
+width:30px;
+    height:30px;
+    /* background-color: #ffeb3b; */
+    border-radius:15px;
+    display: block;
+    overflow: hidden;
+    transition: all 0.3s ease-in;
+}
+
+.sunMoon .moonFace{
+    width:30px;
+    height:30px;
+    background-color: #222;
+    border-radius:15px;
+    display: block;
+    /* transform: translateX(30px) translateY(-30px); */
+    transition: all 0.3s ease-in;
+}

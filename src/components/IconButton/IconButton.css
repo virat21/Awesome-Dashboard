@@ -1,0 +1,24 @@
+.iconButton{
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    padding:8px 15px;
+    border-radius:10px;
+    background-color: transparent;
+    display:flex;
+    align-items: center;
+    font-size:14px;
+    outline: none;
+    transition:all 0.3s ease;
+}
+
+.iconButton .material-icons{
+    margin-right:5px;
+    font-size:20px;
+}
+
+.iconButton:active{
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.1);
+}

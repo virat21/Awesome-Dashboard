@@ -1,0 +1,8 @@
+.sideBar{
+    width:300px;
+    flex: 1 0 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height:calc(100vh - var(--headerHeight));
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.2);
+}

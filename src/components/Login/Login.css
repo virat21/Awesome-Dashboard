@@ -1,0 +1,67 @@
+.loginContainer{
+    flex: 1;
+    max-width:400px;
+    min-width:300px;
+    height:400px;
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+    border-radius:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 100ms ease;
+}
+
+.loginContainer .loginWrapper{
+    margin:0px 20px;
+    text-align: center;
+    
+}
+
+.loginWrapper h1{
+    font-weight: 600;
+    font-size:25px;
+    margin:0px;
+    
+}
+
+.loginWrapper h4{
+    font-weight: 400;
+    margin:10px 0px 0px 0px;
+
+}
+
+.loginWrapper .loginBtn{
+    margin: 20px 10px 0px 10px;
+    background-color: #2196f3;
+    padding:15px 10px;
+    border-radius:20px;
+    color:#fff;
+    box-shadow: 0px 5px 3px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+}
+
+.loginWrapper .loginBtn:hover,.loginBtn:focus{
+    background-color: #5db6ff;
+    box-shadow: 0px 6px 3px rgba(0,0,0,0.1);
+
+}
+
+.loginWrapper .loginBtn:active{
+    background-color: #3e96dd;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.1);
+
+}
+
+.loginWrapper .privacyPolicy{
+    font-size: 12px;
+    margin:20px 20px 0px 20px;
+}
+
+.loginWrapper .privacyPolicy a{
+    color:#2196f3;
+}
+
+

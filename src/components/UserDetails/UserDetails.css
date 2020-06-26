@@ -1,0 +1,27 @@
+.userDetails{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.userDetails .avatar{
+    width:150px;
+    height:150px;
+    border-radius:75px;
+    overflow: hidden;
+}
+
+.avatar img{
+    width:150px;
+    height:150px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.userDetails .userName{
+    font-size:18px;
+    margin:10px 0px;
+}

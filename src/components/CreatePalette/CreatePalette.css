@@ -1,0 +1,40 @@
+.createPalette{
+padding:20px 20px 0px 20px;
+--colorWrapperHeight : calc(100vh - var(--headerHeight) - var(--footerHeight) - 20px);
+height:var(--colorWrapperHeight);
+}
+
+.createPalette .paletteWrapper{
+    height:calc( var(--colorWrapperHeight) - 20px);
+    box-shadow:0px 5px 10px rgba(0,0,0,0.1);
+    border-radius:30px;
+    overflow: hidden;
+}
+
+.paletteWrapper .colors{
+    
+    height: calc( var(--colorWrapperHeight) - 100px);
+    display:flex;
+}
+
+.paletteWrapper .actions{
+    height:80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 35px;
+}
+
+.actions .actionsRight,.actions .actionsLeft{
+    display: flex;
+    ;
+}
+
+.actions .actionsLeft p{
+    font-size:12px;
+    margin-left:10px;
+}
+
+.actionsRight button:first-child{
+margin-right:10px;
+}

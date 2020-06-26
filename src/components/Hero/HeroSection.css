@@ -1,0 +1,32 @@
+.hero{
+    flex:1;
+    width:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.hero .heroTitle{
+    font-size:30px;
+    max-width: 50vw;
+    font-weight: 200;
+}
+.heroTitle p{
+    margin: 0px;
+}
+.heroTitle p:first-child{
+    font-size:40px;
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+}
+
+
+.hero .heroWrapper img{
+    margin-top:-30px;
+    width:60vw;
+    height:300px;
+    z-index: -1;
+    user-select: none;
+    -webkit-user-drag: none;
+}

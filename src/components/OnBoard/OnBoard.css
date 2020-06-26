@@ -1,0 +1,23 @@
+.onBoardContainer{
+width: 100vw;
+}
+
+.onBoardContainer .onBoardWrapper{
+    width: 100vw;
+    display: flex;
+}
+
+.onBoardWrapper .heroSection{
+    width: 60vw;
+    height:calc(100vh - var(--headerHeight) - var(--footerHeight));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.onBoardWrapper .loginSection{
+    width: 40vw;
+    height:calc(100vh - var(--headerHeight) - var(--footerHeight));
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

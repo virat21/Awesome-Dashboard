@@ -1,0 +1,21 @@
+.singleColor{
+     flex:1;
+     display:flex;
+     flex-direction: column;
+     height: calc( var(--colorWrapperHeight) - 100px);
+}
+
+.singleColor div:first-child{
+    flex:1;
+    display:flex;
+}
+
+.singleColor input{
+    width:calc(100% - 60px);
+    margin:20px;
+    border:1px solid #ccc;
+    height:30px;
+    outline:none;
+    padding:5px 10px;
+    border-radius:10px;
+}
